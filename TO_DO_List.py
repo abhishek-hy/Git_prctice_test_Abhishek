@@ -8,7 +8,7 @@ def add():
         entry.delete(0,tk.END)
 
     else:
-        messagebox.showwarning("Warning !, Please add task")
+        messagebox.showwarning("Warning !", "Please add task")
 
 def delete():
     try:
@@ -16,7 +16,7 @@ def delete():
         listbox.delete(select_index)
 
     except:
-        messagebox.showwarning("Warning !, Please select task")    
+        messagebox.showwarning("Warning !", "Please select task")    
 
 window = tk.Tk()
 window.title("TO DO LIST")
