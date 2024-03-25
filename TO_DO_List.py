@@ -26,8 +26,8 @@ entry.pack()
 
 Button_add = tk.Button(window,text="Add Task",command=add)
 Button_add.pack()
-Button_del = tk.Button(window,text="Delete Task",command=delete)
-Button_del.pack()
+dlt = tk.Button(window,text="Delete Task",command=delete)
+dlt.pack()
 listbox = tk.Listbox(window,selectmode=tk.SINGLE,width=40,height=10)
 listbox.pack()
 
