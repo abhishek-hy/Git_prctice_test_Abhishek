@@ -29,6 +29,7 @@ Button_add.pack()
 Button_del = tk.Button(window,text="Delete Task",command=delete)
 Button_del.pack()
 listbox = tk.Listbox(window,selectmode=tk.SINGLE,width=40,height=10)
+listbox.pack()
 
 
 
